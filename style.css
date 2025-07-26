@@ -3,3 +3,24 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+#category-buttons label {
+  border: 2px solid #43a047;
+  padding: 10px 26px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 17.12px;
+  color: #388e3c;
+  background-color: #e8f5e9;
+  box-shadow: 0 1px 6px rgba(67, 160, 71, 0.05);
+  transition: all .3s ease;
+}
+
+#category-buttons label:hover {
+  background-color: #43a047;
+  color: #ffffff;
+}
+
+#category-buttons input {
+  display: none;
+}
